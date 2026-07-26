@@ -4,30 +4,19 @@ A small repository for learning Clojure.
 
 ## Environment setup
 
-### 1. Install Java (JDK 17+ recommended)
+### Requirements
 
-Clojure runs on the JVM, so Java is required.
+- Java
 
-- macOS: `brew install openjdk@17`
-- Ubuntu/Debian: `sudo apt-get install openjdk-17-jdk`
-- Windows: install a JDK from Adoptium or Oracle
+    ```sh
+    java -version
+    ```
 
-Verify:
+- Clojure: <https://clojure.org/guides/install_clojure>
 
-```bash
-java -version
-```
-
-### 2. Install Clojure CLI
-
-Install the official Clojure CLI from:
-https://clojure.org/guides/install_clojure
-
-Verify:
-
-```bash
-clojure -Sdescribe
-```
+    ```sh
+    clojure -Sdescribe
+    ```
 
 ## Hello World sample
 
