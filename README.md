@@ -17,21 +17,3 @@ A small repository for learning Clojure.
     ```sh
     clojure -Sdescribe
     ```
-
-## Hello World sample
-
-This repository includes one sample program:
-
-- `src/hello_clojure/core.clj`
-
-Run it:
-
-```bash
-clojure -M -m hello-clojure.core
-```
-
-Expected output:
-
-```text
-Hello, world!
-```
