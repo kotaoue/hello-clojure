@@ -9,5 +9,8 @@
 
 (defn -main
   [& args]
-  (let [n (if (seq args) (Integer/parseInt (first args)) 3)]
-    (hanoi n "A" "C" "B")))
+  (let [n (if (seq args) (Integer/parseInt (first args)) 3)
+        total-moves (- (Math/pow 2 n) 1)]
+    (hanoi n "A" "C" "B")
+    (println)
+    (println (str "Total moves: " (int total-moves)))))
