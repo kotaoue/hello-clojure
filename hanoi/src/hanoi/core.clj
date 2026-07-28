@@ -8,5 +8,6 @@
     (hanoi (dec n) via to from)))
 
 (defn -main
-  [& _args]
-  (hanoi 3 "A" "C" "B"))
+  [& args]
+  (let [n (if (seq args) (Integer/parseInt (first args)) 3)]
+    (hanoi n "A" "C" "B")))
