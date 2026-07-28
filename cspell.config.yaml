@@ -3,6 +3,8 @@ ignorePaths: []
 dictionaryDefinitions: []
 dictionaries: []
 words:
+  - defn
+  - println
   - Sdescribe
 ignoreWords: []
 import: []
