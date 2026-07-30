@@ -21,7 +21,7 @@ A small repository for learning Clojure.
 ## Samples
 
 | ディレクトリ | テーマ | 主なClojure機能 |
-|---|---|---|
+| --- | --- | --- |
 | [helloworld](helloworld/) | Hello World | `defn`, `println` |
 | [hanoi](hanoi/) | ハノイの塔 | 再帰, `when`, `let` |
 | [fibonacci](fibonacci/) | フィボナッチ数列 | 遅延シーケンス (`lazy-cat`, `take`) |
